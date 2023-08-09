@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projeto X-Men</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="logo x-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um Personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Possui o poder de projetar pura energia de seus olhos de cor vermelho-rubi. Antigamente se pensava que as suas rajadas não emitiam calor, mas fato já foi esclarecido, já que suas rajadas energéticas são abastecidas por energia solar e acabam retendo um pouco de seu calor">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Personagem Ciclope">
+                </li>
+
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="É uma mutante nível ômega e o principal avatar da Força Fênix, no qual manifesta poderes cósmicos. A telepatia, telecinese e empatia de Jean são drasticamente aumentadas quando em contato com a Fênix, além de poder viajar no vácuo do espaço que vai além da velocidade da luz">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Personagem Jean Grey">
+                </li>
+
+                <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description="O seu poder é mais conhecido pelo nome de intangibilidade. Neste estado, também chamado de “entrar em fase“, ela consegue atravessar objetos sólidos.">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="Personagem Lince Negra">
+                </li>
+
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Possui a habilidade psiônica para controlar todos os aspectos naturais do universo e pode controlar o tempo. Podendo controlar o vento, relâmpagos e criar todos os tipos de fenômenos climáticos naturais.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Personagem Tempestade">
+                </li>
+
+                <li class="personagem" id="vampira" data-name="Vampira" data-description="O poder primário da Vampira é a absorção de poderes sempre que ela toca na pele de algum indivíduo com superpoderes. Geralmente, esse dom é usado em outros mutantes, mas ela não 'copia' apenas poderes derivados do Gene X, como também outros seres que tiveram seu DNA modificado por interferências externas.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Personagem Vampira">
+                </li>
+
+                <li class="personagem" id="Wolverine" data-name="Wolverine" data-description="Além de suas mortais garras de adamantium, capazes de cortar qualquer coisa, ele tem um poderoso fato de cura; envelhece lentamente – o que o torna praticamente imortal -; e tem diversas características animais, como sentidos muito aguçados.">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Personagem Wolverine">
+                </li>
+
+                <li class="personagem" id="Noturno" data-name="Noturno" data-description="Possui agilidade sobre-humana, e a capacidade de teletransporte, invisibilidade em sombras profundas, e as mãos e os pés aderirem a parede. Sua mutações físicas incluem a pele azul, três dedos nos pés e mãos (incluindo o polegar), olhos amarelos, e uma cauda preênsil.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+
+                <li class="personagem" id="Magneto" data-name="Magneto" data-description="É um mutante com enormes poderes de manipulação de campos magnéticos, além de controlar qualquer tipo de metal, incluindo o Adamantium.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="Personagem Magneto">
+                </li>
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Possui o poder de projetar pura energia de
+                    seus olhos de cor vermelho-rubi. Antigamente se pensava que as suas rajadas não emitiam calor, mas
+                    fato já foi esclarecido, já que suas rajadas energéticas são abastecidas por energia solar e acabam
+                    retendo um pouco de seu calor.</p>
+            </div>
+
+        </section>
+
+    </main>
+    <script src="./src/JS/index.js"></script>
+</body>
+
+</html>
